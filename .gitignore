@@ -1,0 +1,103 @@
+# ─────────────────────────────────────────────
+#  Dependencies
+# ─────────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# ─────────────────────────────────────────────
+#  Build output
+# ─────────────────────────────────────────────
+dist/
+dist-ssr/
+build/
+out/
+
+# ─────────────────────────────────────────────
+#  Environment variables  (NEVER commit these)
+# ─────────────────────────────────────────────
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+.env.staging
+
+# ─────────────────────────────────────────────
+#  Vite / TypeScript cache
+# ─────────────────────────────────────────────
+*.tsbuildinfo
+.vite/
+
+# ─────────────────────────────────────────────
+#  Testing
+# ─────────────────────────────────────────────
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+
+# ─────────────────────────────────────────────
+#  Logs
+# ─────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ─────────────────────────────────────────────
+#  Package managers
+# ─────────────────────────────────────────────
+.pnpm-store/
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+
+# ─────────────────────────────────────────────
+#  Editors & IDEs
+# ─────────────────────────────────────────────
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.sublime-project
+*.sublime-workspace
+
+# ─────────────────────────────────────────────
+#  OS-generated files
+# ─────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ─────────────────────────────────────────────
+#  Vercel
+# ─────────────────────────────────────────────
+.vercel
+
+# ─────────────────────────────────────────────
+#  Miscellaneous
+# ─────────────────────────────────────────────
+*.local
+*.orig
+.cache/
+tmp/
+temp/
